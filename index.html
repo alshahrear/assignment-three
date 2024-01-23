@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Assignment 3</title>
     <link href="https://cdn.jsdelivr.net/npm/daisyui@4.6.0/dist/full.min.css" rel="stylesheet" type="text/css" />
     <script src="https://cdn.tailwindcss.com"></script>
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -26,8 +26,8 @@
                 <h1 class="text-[#131318] text-4xl font-extrabold">Hockey<span class="text-[#FF4240]">'</span>s</h1>
             </div>
             <div>
-                <ul class="flex gap-11 text-base font-normal text-[#424247]">
-                    <li><a href="">Home</a></li>
+                <ul class=" hidden lg:flex gap-11 text-base font-normal text-[#424247]">
+                    <li class="text-[#FF4240] font-bold"><a href="">Home</a></li>
                     <li><a href="">About</a></li>
                     <li><a href="">Pages</a></li>
                     <li><a href="">Blog</a></li>
@@ -55,7 +55,7 @@
         </nav>
         <div class="carousel mt-10  ml-[60px] mr-[90px] absolute ">
             <div id="slide1" class="carousel-item relative w-full">
-                <img src="Images/1.png" class="w-full h-4/5" />
+                <img src="Images/1.png" class=" w-full h-4/5" />
                 <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
                     <a href="#slide2" class="btn btn-circle">❮</a>
                     <a href="#slide2" class="btn btn-circle">❯</a>
@@ -77,13 +77,12 @@
             </p>
         </div>
         <div
-            class="mt-[100px] text-center border-t border-b border-dashed border-r-0 border-[#13131833] p-6 ml-[90px] mr-[90px] ">
-            <h1 class="text-[#131318] text-4xl font-extrabold">Professional Hockeys Club</h1>
-            <p class="text-[#13131899] text-base font-medium mt-4 ">Hockey clubs refer to organized sports clubs or <br>
-                teams that participate in the sport of hockey</p>
+            class="mt-[80px] text-center border-t border-b border-dashed border-r-0 border-[#13131833] p-1 lg:p-6 ml-[20px] lg:ml-[90px] mr-[20px] lg:mr-[90px] ">
+            <h1 class="text-[#131318] text-2xl lg:text-4xl font-extrabold">Professional Hockeys Club</h1>
+            <p class="text-[#13131899] text-base font-medium mt-4 ">Hockey clubs refer to organized <br> sports clubs or teams </p>
         </div>
         <div>
-            <section class=" flex justify-between mt-[50px] ml-[90px] mr-[90px] pt-2 ">
+            <section class=" lg:flex justify-between mt-[50px] ml-[110px] lg:ml-[90px] mr-[90px] pt-2 ">
                 <div>
                     <div class="relative">
                         <img class="" src="Images/Group 9.png" alt="">
@@ -98,7 +97,7 @@
                 </div>
                 <div>
                     <div class="relative">
-                        <img class="" src="Images/Group 9 (1).png" alt="">
+                        <img class="mt-7 lg:mt-0" src="Images/Group 9 (1).png" alt="">
                     </div class="absolute">
                     <div>
                         <h1 class="text-[#131318] text-[28px] font-extrabold  ml-[35px] -mt-[80px] ">95%</h1>
@@ -110,7 +109,7 @@
                 </div>
                 <div>
                     <div class="relative">
-                        <img class="" src="Images/Group 9 (2).png" alt="">
+                        <img class="mt-7 lg:mt-0" src="Images/Group 9 (2).png" alt="">
                     </div class="absolute">
                     <div>
                         <h1 class="text-[#131318] text-[28px] font-extrabold  ml-[35px] -mt-[80px] ">90%</h1>
@@ -122,7 +121,7 @@
                 </div>
                 <div>
                     <div class="relative">
-                        <img class="" src="Images/Group 9 (3).png" alt="">
+                        <img class="mt-7 lg:mt-0" src="Images/Group 9 (3).png" alt="">
                     </div class="absolute">
                     <div>
                         <h1 class="text-[#131318] text-[28px] font-extrabold  ml-[35px] -mt-[80px] ">80%</h1>
@@ -134,21 +133,19 @@
                 </div>
             </section>
         </div>
-        <div
-            class="mt-[100px] text-center border-t border-b border-dashed border-r-0 border-[#13131833] p-6 ml-[90px] mr-[90px]">
+        <div class="mt-[70px] text-center border-t border-b border-dashed border-r-0 border-[#13131833] p-2 lg:p-6 ml-[20px] lg:ml-[90px] mr-[20px] lg:mr-[90px]">
             <h1 class="text-[#131318] text-4xl font-extrabold">Program Sections</h1>
-            <p class="text-[#13131899] font-medium text-base pt-6">providing a platform for players to hone their skills
-                compete.</p>
+            <p class="text-[#13131899] font-medium text-base pt-6">Each participating team typically has a national flag that <br> represents their nation during the tournament.</p>
         </div>
-    <section class="mt-12 ml-[90px] ">
-            <div class="flex">
+    <section class="mt-12 ml-[20px] lg:ml-[90px] mr-[20px] lg:mr-0">
+            <div class="lg:flex">
                 <div class="bg-[url(./Images/2.png)] bg-no-repeat rounded-2xl">
                     <h3 class="text-[#FFF] text-[28px] pl-8 pt-10 w-[600px] [font-extrabold">Junior Program</h3>
                     <p class="text-base pt-5 pl-8 pb-5 text-[#FFF] font-medium">A Junior Program typically refers to an entry-level <br> training initiative designed</p>
                     <button class="bg-[#FF4240] text-[#FFF] text-xl font-bold rounded-lg mb-10 ml-8 p-3">Register Now!</button>
                 </div>
                 <div class="bg-[url(./Images/3.png)] bg-no-repeat rounded-2xl">
-                    <h3 class="text-[#FFF] text-[28px] pl-8 pt-10 w-[600px] [font-extrabold">Teenager Program</h3>
+                    <h3 class="text-[#FFF] text-[28px] pl-8 pt-10 w-[600px] [font-extrabold mt-5 lg:mt-0">Teenager Program</h3>
                     <p class="text-base pt-5 pl-8 pb-5 text-[#FFF] font-medium">Teenager Program typically refers to an entry-level <br> training initiative designed</p>
                     <button class="bg-[#FF4240] text-[#FFF] text-xl font-bold rounded-lg mb-10 ml-8 p-3">Register Now!</button>
                 </div>
@@ -156,25 +153,25 @@
             </div>
         </section>
         <div>
-            <div class="ml-[90px]">
-                <div class="bg-[url(./Images/4.png)] mr-[50px] pt-16 mt-16 bg-no-repeat rounded-2xl">
+            <div class="ml-[20px] lg:ml-[90px] mr-[20px] lg:mr-0">
+                <div class="bg-[url(./Images/4.png)] lg:mr-[50px] pt-16 mt-16 bg-no-repeat rounded-2xl">
                     <h3 class="text-[#FFF] text-[28px] pl-8 pt-10 w-[650px] [font-extrabold">Professional Program</h3>
                     <p class="text-base pt-5 pl-8 pb-5 text-[#FFF] font-medium">Professional Program typically refers to an entry-level <br> training initiative designed</p>
                     <button class="bg-[#FF4240] text-[#FFF] text-xl font-bold rounded-lg mb-10 ml-8 p-3">Register Now!</button>
                 </div>
         </div>
-        <div class="m-[70px] text-center border-t border-b border-dashed border-r-0 border-[#13131833] p-6 ml-[90px] mr-[80px]">
+        <div class="m-[70px] text-center border-t border-b border-dashed border-r-0 border-[#13131833] p-2 lg:p-6 ml-[20px] lg:ml-[90px] mr-[20px] lg:mr-[80px]">
             <h1 class="text-[#131318] text-4xl font-extrabold">Our New Products</h1>
             <p class="text-[#13131899] text-base font-medium mt-6">you'd like to share or inquire about regarding your
                 new products <br> please provide more details</p>
         </div>
-        <section class="ml-[90px] flex mr-[80px] gap-16">
+        <section class="ml-[20px] lg:ml-[90px] lg:flex mr-[20px] lg:mr-[80px] gap-16">
             <div>
-                <div class="flex mb-5 w-[560px] gap-3 border-2 rounded-xl p-5">
+                <div class="lg:flex mb-5 w-[335px] lg:w-[560px] gap-3 border-2 rounded-xl p-5">
                     <div>
-                        <img class="w-[180px] h-[160px]" src="Images/5.png" alt="">
+                        <img class="w-[300px] lg:w-[180px] h-[180px] lg:h-[160px]" src="Images/5.png" alt="">
                     </div>
-                    <div class="">
+                    <div class="mt-4 lg:mt-0">
                         <div class="flex gap-4 text-base font-medium">
                             <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
                                 <g clip-path="url(#clip0_6_192)">
@@ -217,33 +214,34 @@
                             <h3 class="text-xl font-extrabold text-[#131318] mt-2 mb-3">World Cup Flags Football</h3>
                             <p class="text-base font-medium">World Cup to have flags associated <br> with their countries</p>
     
-                            <div class="flex items-center text-center gap-4">
+                     <div class="lg:flex lg:items-center lg:text-center lg:gap-4">
     
-                            <h4 class="text-[#FF4240] mt-3 font-extrabold text-lg">Price - $22.00</h4>
-                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
-                                <g clip-path="url(#clip0_7_227)">
+                <h4 class="text-[#FF4240] mt-3 font-extrabold text-lg">Price - $22.00</h4>
+
+                 <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
+                  <g clip-path="url(#clip0_7_227)">
                                   <path d="M4 18.9998C4 19.5302 4.21071 20.0389 4.58579 20.414C4.96086 20.789 5.46957 20.9998 6 20.9998C6.53043 20.9998 7.03914 20.789 7.41421 20.414C7.78929 20.0389 8 19.5302 8 18.9998C8 18.4693 7.78929 17.9606 7.41421 17.5855C7.03914 17.2105 6.53043 16.9998 6 16.9998C5.46957 16.9998 4.96086 17.2105 4.58579 17.5855C4.21071 17.9606 4 18.4693 4 18.9998Z" stroke="#89898B" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
                                   <path d="M12 16.9998H6V2.99976H4" stroke="#89898B" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
                                   <path d="M6 4.99976L20 5.99976L19.284 11.0108M14 12.9998H6" stroke="#89898B" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
                                   <path d="M21.121 20.1208C21.5406 19.7013 21.8265 19.1667 21.9423 18.5847C22.0581 18.0028 21.9988 17.3995 21.7717 16.8513C21.5447 16.3031 21.1602 15.8345 20.6668 15.5048C20.1734 15.1751 19.5934 14.9991 19 14.9991C18.4066 14.9991 17.8266 15.1751 17.3332 15.5048C16.8398 15.8345 16.4553 16.3031 16.2283 16.8513C16.0012 17.3995 15.9419 18.0028 16.0577 18.5847C16.1735 19.1667 16.4594 19.7013 16.879 20.1208C17.297 20.5398 18.004 21.1658 19 21.9998C20.051 21.1098 20.759 20.4838 21.121 20.1208Z" stroke="#89898B" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
                                   <path d="M19 17.9998V18.0098" stroke="#89898B" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
-                                </g>
-                                <defs>
-                                  <clipPath id="clip0_7_227">
-                                    <rect width="24" height="24" fill="white" transform="translate(0 -0.000244141)"/>
+                </g>
+                     <defs>
+                  <clipPath id="clip0_7_227">
+                        <rect width="24" height="24" fill="white" transform="translate(0 -0.000244141)"/>
                                   </clipPath>
                                 </defs>
                               </svg>
-                            <h5 class="text-base mt-3 items-center text-center font-medium">Delivery Fee : Free</h5>
-                            </div>
+                            <h5 class=" flex lg:text-base mt-3 lg:items-center lg:text-center font-medium">Delivery Fee : Free</h5>
+                         </div> 
                         </div>
                     </div>
                 </div>
-                <div class="flex mb-5 gap-3 w-[560px] border-2 rounded-xl p-5">
-                    <div>
-                        <img class="w-[180px] h-[160px]" src="Images/7.png" alt="">
+                <div class="lg:flex mb-5 gap-3 w-[335px] lg:w-[560px] border-2 rounded-xl p-5">
+            <div>
+            <img class="w-[300px] lg:w-[180px] h-[180px] lg:h-[160px]" src="Images/7.png" alt="">
                     </div>
-                    <div class="">
+                    <div class="mt-4 lg:mt-0">
                         <div class="flex gap-4 text-base font-medium">
                             <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
                                 <g clip-path="url(#clip0_6_192)">
@@ -286,7 +284,7 @@
                             <h3 class="text-xl font-extrabold text-[#131318] mt-2 mb-3">Cap For Hockeys</h3>
                             <p class="text-base font-medium">World Cup to have flags associated <br> with their countries</p>
     
-                            <div class="flex items-center text-center gap-4">
+                            <div class="lg:flex lg:items-center lg:text-center gap-4">
     
                             <h4 class="text-[#FF4240] mt-3 font-extrabold text-lg">Price - $22.00</h4>
                             <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
@@ -303,16 +301,16 @@
                                   </clipPath>
                                 </defs>
                               </svg>
-                            <h5 class="text-base mt-3 items-center text-center font-medium">Delivery Fee : Free</h5>
+                            <h5 class="text-base mt-3 lg:items-center lg:text-center font-medium">Delivery Fee : Free</h5>
                             </div>
                         </div>
                     </div>
                 </div>
-                <div class="flex gap-3 w-[560px] border-2 rounded-xl p-5">
+                <div class="lg:flex gap-3 w-[335px] lg:w-[560px] border-2 rounded-xl p-5">
                     <div>
-                        <img class="w-[180px] h-[160px]" src="Images/9.png" alt="">
+                        <img class="w-[300px] lg:w-[180px] h-[180px] lg:h-[160px]" src="Images/9.png" alt="">
                     </div>
-                    <div class="">
+                    <div class="mt-4 lg:mt-0">
                         <div class="flex gap-4 text-base font-medium">
                             <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
                                 <g clip-path="url(#clip0_6_192)">
@@ -355,7 +353,7 @@
                             <h3 class="text-xl font-extrabold text-[#131318] mt-2 mb-3">World Cup Flags Football</h3>
                             <p class="text-base font-medium">World Cup to have flags associated <br> with their countries</p>
     
-                            <div class="flex items-center text-center gap-4">
+                            <div class="lg:flex lg:items-center lg:text-center gap-4">
     
                             <h4 class="text-[#FF4240] mt-3 font-extrabold text-lg">Price - $22.00</h4>
                             <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
@@ -372,18 +370,18 @@
                                   </clipPath>
                                 </defs>
                               </svg>
-                            <h5 class="text-base mt-3 items-center text-center font-medium">Delivery Fee : Free</h5>
+                            <h5 class="text-base mt-3 lg:items-center lg:text-center font-medium">Delivery Fee : Free</h5>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
             <div>
-                <div class="flex gap-3 w-[560px] mb-5 border-2 rounded-xl p-5">
+                <div class="lg:flex gap-3 w-[335px] lg:w-[560px] mb-5 border-2 rounded-xl mt lg:mt-0 p-5">
                     <div>
-                        <img class="w-[180px] h-[160px]" src="Images/6.png" alt="">
+                        <img class="w-[300px] lg:w-[180px] h-[180px] lg:h-[160px]" src="Images/6.png" alt="">
                     </div>
-                    <div class="">
+                    <div class="mt-4 lg:mt-0">
                         <div class="flex gap-4 text-base font-medium">
                             <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
                                 <g clip-path="url(#clip0_6_192)">
@@ -426,7 +424,7 @@
                             <h3 class="text-xl font-extrabold text-[#131318] mt-2 mb-3">World Cup Flags Football</h3>
                             <p class="text-base font-medium">World Cup to have flags associated <br> with their countries</p>
     
-                            <div class="flex items-center text-center gap-4">
+                            <div class="lg:flex lg:items-center lg:text-center gap-4">
     
                             <h4 class="text-[#FF4240] mt-3 font-extrabold text-lg">Price - $22.00</h4>
                             <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
@@ -443,16 +441,16 @@
                                   </clipPath>
                                 </defs>
                               </svg>
-                            <h5 class="text-base mt-3 items-center text-center font-medium">Delivery Fee : Free</h5>
+                            <h5 class="text-base mt-3 lg:items-center lg:text-center font-medium">Delivery Fee : Free</h5>
                             </div>
                         </div>
                     </div>
                 </div>
-                <div class="flex mb-5 w-[560px] gap-3 border-2 rounded-xl p-5">
+                <div class="lg:flex mb-5 w-[335px] lg:w-[560px] gap-3 border-2 rounded-xl p-5">
                     <div>
-                        <img class="w-[180px] h-[160px]" src="Images/8.png" alt="">
+                        <img class="w-[300px] lg:w-[180px] h-[180px] lg:h-[160px]" src="Images/8.png" alt="">
                     </div>
-                    <div class="">
+                    <div class="mt-4 lg:mt-0">
                         <div class="flex gap-4 text-base font-medium">
                             <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
                                 <g clip-path="url(#clip0_6_192)">
@@ -495,7 +493,7 @@
                             <h3 class="text-xl font-extrabold text-[#131318] mt-2 mb-3">World Cup Flags Football</h3>
                             <p class="text-base font-medium">World Cup to have flags associated <br> with their countries</p>
     
-                            <div class="flex items-center text-center gap-4">
+                            <div class="lg:flex lg:items-center lg:text-center gap-4">
     
                             <h4 class="text-[#FF4240] mt-3 font-extrabold text-lg">Price - $22.00</h4>
                             <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
@@ -512,16 +510,17 @@
                                   </clipPath>
                                 </defs>
                               </svg>
-                            <h5 class="text-base mt-3 items-center text-center font-medium">Delivery Fee : Free</h5>
+                            <h5 class="text-base mt-3 lg:items-center lg:text-center font-medium">Delivery Fee : Free</h5>
                             </div>
                         </div>
                     </div>
                 </div>
-                <div class="flex gap-3 w-[560px] border-2 rounded-xl p-5">
+                <div class="lg:flex gap-3 w-[335px] lg:w-[560px] border-2 rounded-xl p-5">
                     <div>
-                        <img class="w-[180px] h-[160px]" src="Images/10.png" alt="">
+                        <img class="
+                        w-[300px] lg:w-[180px] h-[180px] lg:h-[160px]" src="Images/10.png" alt="">
                     </div>
-                    <div class="">
+                    <div class="mt-4 lg:mt-0">
                         <div class="flex gap-4 text-base font-medium">
                             <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
                                 <g clip-path="url(#clip0_6_192)">
@@ -564,7 +563,7 @@
                             <h3 class="text-xl font-extrabold text-[#131318] mt-2 mb-3">World Cup Flags Football</h3>
                             <p class="text-base font-medium">World Cup to have flags associated <br> with their countries</p>
     
-                            <div class="flex items-center text-center gap-4">
+                            <div class="lg:flex lg:items-center lg:text-center gap-4">
     
                             <h4 class="text-[#FF4240] mt-3 font-extrabold text-lg">Price - $22.00</h4>
                             <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
@@ -581,81 +580,89 @@
                                   </clipPath>
                                 </defs>
                               </svg>
-                            <h5 class="text-base mt-3 items-center text-center font-medium">Delivery Fee : Free</h5>
+                            <h5 class="text-base mt-3 lg:items-center lg:text-center font-medium">Delivery Fee : Free</h5>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
         </section>
-        <div class="m-[70px] text-center border-t border-b border-dashed border-r-0 border-[#13131833] p-6 ml-[90px] mr-[80px]">
+        <div class="m-[70px] text-center border-t border-b border-dashed border-r-0 border-[#13131833] p-4 lg:p-6 ml-[20px] lg:ml-[90px] mr-[20px] lg:mr-[80px]">
             <h1 class="text-[#131318] text-4xl font-extrabold">Clients Question</h1>
-            <p class="text-[#13131899] text-base font-medium mt-6">Clients Question to share or inquire about regarding
+            <p class="text-[#13131899] text-base font-medium mt-3 lg:mt-6">Clients Question to share or inquire about regarding
                 your new products <br> please provide more details</p>
         </div>
-        <section class=" flex gap-16 ml-[90px] mr-[80px]">
+        <section class=" lg:flex border-2 p-5 lg:p-10 rounded-xl gap-16 ml-[20px] lg:ml-[90px] mr-[20px] lg:mr-[80px]">
             <div>
-                <img class=" w-[450px] h-[370px]" src="Images/11.png" alt="">
+                <img class="w-[350px] lg:w-[450px] h-[250px] lg:h-[370px]" src="Images/11.png" alt="">
             </div>
             <div>
-                <div class="collapse collapse-plus border-t-0 border-y-2">
+                <div class="collapse collapse-plus">
                     <input type="radio" name="my-accordion-3" checked="checked" />
-                    <div class="collapse-title text-xl font-medium">
-                        Our Equipment
+                    <div class="collapse-title text-[#131318] text-xl font-bold">
+                     Our Equipment
                     </div>
                     <div class="collapse-content">
                         <p>Emphasize the importance of clear and open communication. <br> Encourage your clients to
                             express their needs, concerns, and expectations clearly.</p>
                     </div>
                 </div>
-                <div class="collapse collapse-plus border-t-0 border-y-2">
-                    <input type="radio" name="my-accordion-3" />
-                    <div class="collapse-title text-xl font-medium">
-                        Private Lessons
-                    </div>
-                    <div class="collapse-content">
-                        <p>Help clients understand what can be realistically achieved within a given timeframe or
-                            budget. <br> Setting clear and achievable expectations helps in building trust and avoids
-                            disappointment.</p>
-                    </div>
-                </div>
-                <div class="collapse collapse-plus border-t-0 border-y-2 ">
-                    <input type="radio" name="my-accordion-3" />
-                    <div class="collapse-title text-xl font-medium">
-                        Ski Touring
-                    </div>
-                    <div class="collapse-content ">
-                        <p>Advocate for a collaborative relationship. Explain that working together, sharing insights,
-                            and <br> being receptive to feedback can lead to better outcomes.</p>
-                    </div>
-                    <div class="collapse collapse-plus border-t-0 border-y-2 ">
+                <div class="border-t-2">
+                    <div class="collapse collapse-plus ">
                         <input type="radio" name="my-accordion-3" />
-                        <div class="collapse-title text-xl font-medium">
-                            Booking
+                        <div class="collapse-title t text-[#131318] text-xl font-bold ">
+                            Private Lessons
                         </div>
                         <div class="collapse-content">
-                            <p>Recommend regular progress updates and reporting. Keeping clients informed about the <br>
-                                status of projects or services helps build transparency</p>
+                            <p>Help clients understand what can be realistically achieved within a given timeframe or
+                                budget. <br> Setting clear and achievable expectations helps in building trust and avoids
+                                disappointment.</p>
                         </div>
-                        <div class="collapse collapse-plus border-t-0 border-y-2 ">
+                </div>
+                </div>
+                <div class="border-t-2">
+                    <div class="collapse collapse-plus">
+                        <input type="radio" name="my-accordion-3" />
+                        <div class="collapse-title text-[#131318] text-xl font-bold ">
+                          Ski Touring
+                        </div>
+                        <div class="collapse-content">
+                            <p>Advocate for a collaborative relationship. Explain that working together, sharing insights,
+                                and <br> being receptive to feedback can lead to better outcomes.</p>
+                        </div>
+                </div>
+                    <div class="border-t-2">
+                        <div class="collapse collapse-plus">
                             <input type="radio" name="my-accordion-3" />
-                            <div class="collapse-title text-xl font-medium">
-                                Pricings
+                            <div class="collapse-title text-[#131318] text-xl font-bold ">
+                                Booking
                             </div>
-                            <div class="collapse-content border-t-0 border-y-2">
-                                <p>Encourage clients to focus on the value your products or services bring to them. <br>
-                                    Highlight the benefits and outcomes rather than just the features. </p>
+                            <div class="collapse-content">
+                                <p>Recommend regular progress updates and reporting. Keeping clients informed about the <br>
+                                    status of projects or services helps build transparency</p>
                             </div>
+                    </div>
+                        <div class="border-t-2">
+                            <div class="collapse collapse-plus">
+                                <input type="radio" name="my-accordion-3" />
+                                <div class="collapse-title text-[#131318] text-xl font-bold">
+                                    Pricings
+                                </div>
+                                <div class="collapse-content">
+                                    <p>Encourage clients to focus on the value your products or services bring to them. <br>
+                                        Highlight the benefits and outcomes rather than just the features. </p>
+                                </div>
+                        </div>
                         </div>
                     </div>
         </section>
-        <div class="m-[70px] text-center border-t border-b border-dashed border-r-0 border-[#13131833] p-6 ml-[90px] mr-[80px]">
+        <div class=" m-[30px] lg:m-[70px] text-center border-t border-b border-dashed border-r-0 border-[#13131833] p-6 ml-[20px] lg:ml-[90px] mr-[20px] lg:mr-[80px]">
             <h1 class="text-[#131318] text-4xl font-extrabold">Get In Touch</h1>
             <p class="text-[#13131899] text-base font-medium mt-6">Get In Touch to share or inquire about regarding your
                 new products <br> please provide more details</p>
         </div>
-        <section class="flex gap-10 ml-[40px] mr-[30px] p-12">
-            <div class="border-2 rounded-2xl p-10">
+        <section class=" lg:flex gap-2 lg:gap-10 ml-[0px] lg:ml-[40px] mr-[0px] lg:mr-[30px] p-5 lg:p-12">
+            <div class="border-2 rounded-2xl p-3 lg:p-10">
                 <div class="bg-[#BCED6D1A] p-10 rounded-xl ">
                     <img class="pb-7" src="Images/Group 1171275317.png" alt="">
                     <h6 class="text-base font-normal">Phone Number : </h6>
@@ -673,19 +680,19 @@
                 </div>
             </div>
             <div>
-                <div class="flex gap-10 ">
-                    <div>
+                <div class=" mt-5 lg:-mt-2 lg:flex gap-10 ">
+                    <div >
                         <h5 class="text-[#131318] text-xl font-bold">Your Name</h5>
                         <input class="bg-[#13131808] w-[360px] mt-3 pt-5 pb-5 pl-5 pr-16 rounded-lg" type="text"
                             placeholder="Enter your full name">
                     </div>
-                    <div>
+                    <div class="mt-2 lg:mt-0">
                         <h5 class="text-[#131318] text-xl font-bold">Your Email</h5>
                         <input class="bg-[#13131808] w-[360px] mt-3 pt-5 pb-5 pl-5 pr-16 rounded-lg" type="text"
                             placeholder="Enter your email">
                     </div>
                 </div>
-                <div class="flex gap-10">
+                <div class="lg:flex gap-10">
                     <div>
                         <h5 class="text-[#131318] mt-3 text-xl font-bold">Subject</h5>
                         <input class="bg-[#13131808] w-[360px] mt-3 pt-5 pb-5 pl-5 pr-16 rounded-lg" type="text"
@@ -698,20 +705,20 @@
                     </div>
                 </div>
                 <div>
-                    <h5 class="text-[#131318] mt-3 text-xl font-bold">Message</h5>
-                    <input class="bg-[#13131808] h-[450px] w-[760px] pl-5 rounded-lg pt-0" type="text"
+                    <h5 class=" mt-4 mb-4 lg:mt-3 text-[#131318] text-xl font-bold">Message</h5>
+                    <input class=" h-[200px] lg:h-[450px] w-[330px] lg:w-[760px] pl-5 bg-[#13131808] rounded-lg  pt-0" type="text"
                         placeholder="Write your message">
 
                 </div>
                 <div>
-                    <button class="bg-[#FF4240] mt-4 p-3 text-[#FFF] text-xl rounded-xl font-bold w-[760px]">Send
+                    <button class="bg-[#FF4240] mt-4 p-3 text-[#FFF] text-xl rounded-xl font-bold w-[330px] lg:w-[760px]">Send
                         Message</button>
                 </div>
             </div>
         </section>
-        <div class="text-center mb-10 bg-[#13131808] ml-[90px] mr-[80px]">
+        <div class="text-center rounded-xl mb-10 bg-[#13131808] ml-[20px] lg:ml-[90px] mr-[20px] lg:mr-[80px]">
             <h2 class="text-[#131318] text-2xl font-extrabold pt-6">Social Media</h2>
-            <div class="ml-[520px] pt-5 pb-6">
+            <div class="ml-[80px] lg:ml-[500px] pt-5 pb-6">
                 <svg xmlns="http://www.w3.org/2000/svg" width="175" height="24" viewBox="0 0 175 24" fill="none">
                     <path
                         d="M19.8879 6.65563C19.1421 6.98551 18.3548 7.19169 17.5262 7.31539C18.3548 6.82057 19.0178 6.0371 19.3078 5.0887C18.5206 5.54228 17.6505 5.87216 16.6975 6.07834C15.9517 5.29487 14.8745 4.80005 13.7143 4.80005C11.4769 4.80005 9.6539 6.6144 9.6539 8.84109C9.6539 9.17097 9.69533 9.45962 9.7782 9.74827C6.42212 9.58333 3.39751 7.97516 1.36729 5.50105C1.03583 6.11957 0.828661 6.77934 0.828661 7.52157C0.828661 8.92356 1.53302 10.1606 2.65171 10.9029C1.98879 10.8616 1.36729 10.6967 0.787228 10.408V10.4493C0.787228 12.4286 2.19595 14.078 4.06044 14.4491C3.72897 14.5315 3.35608 14.5728 2.98318 14.5728C2.73458 14.5728 2.44455 14.5315 2.19595 14.4903C2.73458 16.0985 4.22617 17.2943 6.00779 17.2943C4.59907 18.3664 2.85888 19.0262 0.95296 19.0262C0.621495 19.0262 0.290031 19.0262 0 18.9849C1.82305 20.1395 3.93614 20.7993 6.25639 20.7993C13.7558 20.7993 17.8576 14.614 17.8576 9.25345C17.8576 9.0885 17.8576 8.88233 17.8576 8.71739C18.6449 8.18133 19.3492 7.48033 19.8879 6.65563Z"
@@ -735,11 +742,11 @@
             </div>
         </div>
     </main>
-    <footer class="bg-[#131318] flex justify-between pl-16 pr-16 pt-20 pb-20">
-        <div>
+    <footer class="bg-[#131318] lg:flex justify-between pl-[25px] lg:pl-16 pr-[25px] lg:pr-16 pt-20 pb-20">
+        <div class="pl-[60px] lg:pl-0">
             <h2 class="text-[#FFF] text-[28px] font-extrabold">Get In Touch</h2>
             <p class="text-[#FFFFFF99] text-base font-medium pt-3 pb-4">Whether you want advice on marketing them <br>
-                information about their features, or anything else <br> feel free to let me know.</p>
+                information about their features</p>
             <div class="flex gap-2">
                 <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
                     <path
@@ -757,27 +764,29 @@
                 <h6 class="text-base font-medium text-[#FFFFFF99]">(+62) 123-321-543</h6>
             </div>
         </div>
-        <div>
-            <h6 class="text-[#FFF] font-bold pb-4">Company</h6>
-            <ul class="text-base font-medium text-[#FFFFFF99]">
-
-                <li class="pb-3"><a href="">About us</a></li>
-                <li class="pb-3"><a href="">Leadership</a></li>
-                <li class="pb-3"><a href="">Careers</a></li>
-                <li class="pb-3"><a href="">News & Article</a></li>
-                <li class="pb-3"><a href="">Legal Notice</a></li>
-            </ul>
+        <div class="flex gap-[160px] pt-10 lg:pt-0">
+            <div>
+                <h6 class="text-[#FFF] font-bold pb-4">Company</h6>
+                <ul class="text-base font-medium text-[#FFFFFF99]">
+    
+                    <li class="pb-3"><a href="">About us</a></li>
+                    <li class="pb-3"><a href="">Leadership</a></li>
+                    <li class="pb-3"><a href="">Careers</a></li>
+                    <li class="pb-3"><a href="">News & Article</a></li>
+                    <li class="pb-3"><a href="">Legal Notice</a></li>
+                </ul>
+            </div>
+            <div>
+                <h6 class="text-[#FFF] font-bold pb-4">Support</h6>
+                <ul class="text-base font-medium text-[#FFFFFF99]">
+                    <li class="pb-3"><a href="">Help Center</a></li>
+                    <li class="pb-3"><a href="">FAQ</a></li>
+                    <li class="pb-3"><a href="">Ticket Support</a></li>
+                    <li class="pb-3"><a href="">Contact Us</a></li>
+                </ul>
+            </div>
         </div>
-        <div>
-            <h6 class="text-[#FFF] font-bold pb-4">Support</h6>
-            <ul class="text-base font-medium text-[#FFFFFF99]">
-                <li class="pb-3"><a href="">Help Center</a></li>
-                <li class="pb-3"><a href="">FAQ</a></li>
-                <li class="pb-3"><a href="">Ticket Support</a></li>
-                <li class="pb-3"><a href="">Contact Us</a></li>
-            </ul>
-        </div>
-        <div>
+        <div class="pl-[120px] lg:pl-0 ">
             <h6 class="text-[#FFF] font-bold pb-4">Services</h6>
             <ul class="text-base font-medium text-[#FFFFFF99]">
                 <li class="pb-3"><a href="">Academy</a></li>
