@@ -20,21 +20,32 @@
 </head>
 
 <body class="font-manrope">
-    <header class="ml-[30px] mr-[30px]">
-        <nav class="flex justify-between items-center mt-10 ml-16 mr-16">
-            <div class="flex">
-                <h1 class="text-[#131318] text-4xl font-extrabold">Hockey<span class="text-[#FF4240]">'</span>s</h1>
-            </div>
-            <div>
-                <ul class=" hidden lg:flex gap-11 text-base font-normal text-[#424247]">
-                    <li class="text-[#FF4240] font-bold"><a href="">Home</a></li>
-                    <li><a href="">About</a></li>
-                    <li><a href="">Pages</a></li>
-                    <li><a href="">Blog</a></li>
-                    <li><a href="">Contact</a></li>
+    <header class=" lg:ml-[30px] mr-[30px] mt-8">
+        <div class="navbar lg:ml-[40px] bg-base-100">
+            <div class="navbar-start">
+              <div class="dropdown">
+                <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
+                  <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h8m-8 6h16" /></svg>
+                </div>
+                <ul tabindex="0" class="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52">
+                    <li class="text-[#FF4240] font-bold"><a>Home</a></li>
+                    <li><a>About</a></li>
+                    <li><a>Pages</a></li>
+                    <li><a>Blog</a></li>
+                    <li><a>Contact</a></li>
                 </ul>
+              </div>
+              <a class="btn btn-ghost text-2xl lg:text-4xl text-[#131318] font-extrabold">Hockey<span class="text-[#FF4240]">'</span>s</a></div>
+            <div class="navbar-center">
+              <ul class="menu menu-horizontal hidden lg:flex px-1 text-base font-normal text-[#424247]">
+                <li class="text-[#FF4240] font-bold"><a>Home</a></li>
+                <li><a>About</a></li>
+                <li><a>Pages</a></li>
+                <li><a>Blog</a></li>
+                <li><a>Contact</a></li>
+              </ul>
             </div>
-            <div class="flex items-center gap-4">
+            <div class="navbar-end mr-[90px] gap-4">
                 <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
                     <g clip-path="url(#clip0_5_6)">
                         <path
@@ -49,35 +60,65 @@
                         </clipPath>
                     </defs>
                 </svg>
-                <button class=" bg-[#FF4240] rounded-lg text-[#FFF] font-bold text-center px-6 py-3"> Get
-                    Ticket</button>
+              <a class="btn bg-[#FF4240] rounded-lg text-[#FFF] font-bold text-center ml-[100px] lg:ml-0 px-6 py-3">Get Ticket</a>
             </div>
-        </nav>
-        <div class="carousel mt-10  ml-[60px] mr-[90px] absolute ">
+          </div>
+
+          <div class="carousel lg:absolute w-full ml-[20px] lg:ml-[60px] mt-10">
             <div id="slide1" class="carousel-item relative w-full">
-                <img src="Images/1.png" class=" w-full h-4/5" />
-                <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+              <img src="Images/1.png" class=" w-[320px] lg:w-[1170px] h-[350px] lg:h-[550px]" />
+              <div class="absolute justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+                <a href="#slide4" class="btn btn-circle">❮</a> 
+                <a href="#slide2" class="btn btn-circle">❯</a>
+              </div>
+            </div> 
+            <div id="slide2" class="carousel-item relative w-full">
+              <img src="https://daisyui.com/images/stock/photo-1609621838510-5ad474b7d25d.jpg" class=" w-[320px] lg:w-[1170px] h-[350px] lg:h-[550px] rounded-xl" />
+              <div class="absolute  justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+                <a href="#slide1" class="btn btn-circle">❮</a> 
+                <a href="#slide3" class="btn btn-circle">❯</a>
+              </div>
+            </div> 
+            <div id="slide3" class="carousel-item relative w-full">
+              <img src="https://daisyui.com/images/stock/photo-1414694762283-acccc27bca85.jpg" class=" w-[1170px] h-[550px]rounded-2xl" />
+              <div class="absolute  justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+                <a href="#slide2" class="btn btn-circle">❮</a> 
+                <a href="#slide4" class="btn btn-circle">❯</a>
+              </div>
+            </div> 
+            <div id="slide4" class="carousel-item relative w-full">
+              <img src="https://daisyui.com/images/stock/photo-1665553365602-b2fb8e5d1707.jpg" class="w-[1170px] h-[550px]rounded-xl" />
+              <div class="absolute justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+                <a href="#slide3" class="btn btn-circle">❮</a> 
+                <a href="#slide1" class="btn btn-circle">❯</a>
+              </div>
+            </div>
+          </div>
+
+        <!-- <div class="carousel mt-10 ml-[20px] lg:ml-[60px] mr-[0px] lg:mr-[90px] lg:absolute ">
+            <div id="slide1" class="carousel-item relative w-full">
+                <img src="Images/1.png" class=" w-[600px] lg:w-full h-[250px] lg:h-4/5" />
+                <div class="absolute justify-between transform -translate-y-1/2 lg:left-5 lg:right-5 top-1/2">
                     <a href="#slide2" class="btn btn-circle">❮</a>
                     <a href="#slide2" class="btn btn-circle">❯</a>
                 </div>
             </div>
-            <div id="slide2" class="carousel-item relative w-full">
-                <img src="Images/12.png" class="w-full h-4/5" />
-                <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+            <div id="slide2" class="carousel-item lg:relative w-full">
+                <img src="Images/12.png" class="lg:w-full rounded-xl lg:h-4/5" />
+                <div class="absolute justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
                     <a href="#slide1" class="btn btn-circle">❮</a>
                     <a href="#slide1" class="btn btn-circle">❯</a>
                 </div>
-            </div>
+            </div> -->
     </header>
     <main>
-        <div class="bg-[#131318] w-2/5 rounded-2xl p-6 relative ml-[700px] mt-[430px]  ">
-            <h2 class="text-[#FFF] text-2xl font-extrabold pb-3">Meet all the heroes from the field</h2>
-            <p class="text-base font-medium text-[#FFFFFF99]">The FIFA World Cup is the most prestigious and watched
-                <br> football tournament in the world.
+        <div class="bg-[#131318] lg:w-2/5 rounded-2xl p-2 lg:p-6 lg:relative ml-[20px] lg:ml-[700px] mt-[30px] lg:mt-[430px] mr-[20px] lg:mr-0 ">
+            <h2 class="text-[#FFF] text-xl lg:text-2xl text-center font-extrabold pb-3">Meet all the heroes from the field</h2>
+            <p class="text-base text-center font-medium text-[#FFFFFF99]">The FIFA World Cup is the most prestigious <br> and watched football.
             </p>
         </div>
         <div
-            class="mt-[80px] text-center border-t border-b border-dashed border-r-0 border-[#13131833] p-1 lg:p-6 ml-[20px] lg:ml-[90px] mr-[20px] lg:mr-[90px] ">
+            class="mt-[30px] lg:mt-[80px] text-center border-t border-b border-dashed border-r-0 border-[#13131833] pt-3 lg:pt-3 pb-3 lg:pb-3 p-2 lg:p-6 ml-[20px] lg:ml-[90px] mr-[20px] lg:mr-[90px] ">
             <h1 class="text-[#131318] text-2xl lg:text-4xl font-extrabold">Professional Hockeys Club</h1>
             <p class="text-[#13131899] text-base font-medium mt-4 ">Hockey clubs refer to organized <br> sports clubs or teams </p>
         </div>
@@ -377,7 +418,7 @@
                 </div>
             </div>
             <div>
-                <div class="lg:flex gap-3 w-[335px] lg:w-[560px] mb-5 border-2 rounded-xl mt lg:mt-0 p-5">
+                <div class="lg:flex gap-3 w-[335px] lg:w-[560px] mb-5 border-2 rounded-xl mt-5 lg:mt-0 p-5">
                     <div>
                         <img class="w-[300px] lg:w-[180px] h-[180px] lg:h-[160px]" src="Images/6.png" alt="">
                     </div>
